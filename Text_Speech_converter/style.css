@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+    45deg,
+    rgba(240, 128, 128),
+    #413d84
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:#fff;
+  flex-direction: column;
+}
+
+.container span{
+color:#ff2963;
+
+}
+
+.container h1{
+    font-size: 45px ;
+    font-weight: 500;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    background-color: #413d84e4;
+    padding: 20px;
+    border-radius:10px ;
+    width: 600px;
+    text-align: center;
+}
+
+textarea{
+    width: 600px;
+    height: 250px;
+    background: #413d84e4;
+    color: #fff;
+    font-size:17px ;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 30px;
+}
+textarea::placeholder{
+    font-size: 18px;
+    color:#ddd
+}
+
+.row{
+    width:600px;
+    display: flex;
+    align-self: center;
+    gap: 20px;
+}
+
+button{
+    background-color: #ff2962c2;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: #413d84 solid 2px;
+    outline: 0;
+    cursor: pointer;
+}
+
+button i{
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+select{
+    flex:1;
+    background: #413d84e4;
+    height: 50px;
+    padding: 0 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 25px;
+    appearance: none; 
+    /* dropdown symbol is hidden */
+    background-image: url(./down-chevron.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x:calc(100% - 20px) ;
+    background-position-y:20px ;
+}
