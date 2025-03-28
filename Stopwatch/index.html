@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="stopwatch">
+        <h1 id="displayTime">00:00:00</h1>
+        <div class="buttons">
+            <img src="./stop.png" alt="stop" onclick="watchStop()">
+            <img src="./play.png" alt="play" onclick="watchStart()" >
+            <img src="./undo.png" alt="reset" onclick="watchReset()" >
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
